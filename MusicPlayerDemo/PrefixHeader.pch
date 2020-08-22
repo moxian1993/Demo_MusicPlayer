@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  MusicPlayerDemo
+//
+//  Created by Xian Mo on 2020/7/8.
+//  Copyright © 2020 Mo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define AuxiliaryX
+
+#import <NerdyUI/NerdyUI.h>
+#import <Masonry/Masonry.h>
+#import <YYModel.h>
+
+#import "ZWSingleton.h"
+
+#import "MOBaseViewController.h"
+#import "MOThemeManager.h"
+
+#import "MOMusicPlayer.h"
+
+#import "MONotificationName.h"
+
+#define WheatColor  Color(@"#F5DEB3")
+
+#endif /* PrefixHeader_pch */
